@@ -1,0 +1,17 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "lib/hyper-express-adapter/(.*)": "<rootDir>/../libs/hyper-express-adapter/src/$1",
+    "lib/hyper-express-adapter": "<rootDir>/../libs/hyper-express-adapter/src"
+  }
+}
