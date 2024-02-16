@@ -198,6 +198,14 @@ export class HyperExpressAdapter extends AbstractHttpAdapter<
     return request.originalUrl;
   }
 
+  public getHeader(response: Response, name: string) {
+    return response.getHeader(name)
+  }
+
+  public appendHeader(response: Response, name: string, value: string) {
+    response.setHeader(name, value);
+  }
+
   public async enableCors(options: any) {}
 
   public createMiddlewareFactory(
