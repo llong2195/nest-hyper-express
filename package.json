@@ -22,7 +22,7 @@
   "dependencies": {
     "@nestjs/common": "^9.4.0",
     "@nestjs/core": "^9.4.0",
-    "@nestjs/platform-express": "^9.4.0",
+    "@nestjs/platform-express": "^9.4.3",
     "hyper-express": "^6.5.9",
     "morgan": "^1.10.0",
     "reflect-metadata": "^0.1.13",
