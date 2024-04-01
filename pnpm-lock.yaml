@@ -15,8 +15,8 @@ dependencies:
     specifier: ^10.3.4
     version: 10.3.4(@nestjs/common@10.3.5)(@nestjs/core@10.3.5)
   hyper-express:
-    specifier: ^6.15.0
-    version: 6.15.0
+    specifier: ^6.15.1
+    version: 6.15.1
   reflect-metadata:
     specifier: ^0.2.2
     version: 0.2.2
@@ -2950,8 +2950,8 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: true
 
-  /hyper-express@6.15.0:
-    resolution: {integrity: sha512-2lEfYfi8RInD7+UAWz8a+57qFBFhMtwDYlhXpdGFLK8oEm1l0kUjBA3G9+N+MqQTRF5GVdlyFjdqXs2VyzRtEQ==}
+  /hyper-express@6.15.1:
+    resolution: {integrity: sha512-QvY805OH1EvL63/vW6A7nGbZrGbceR3WEJEwQWU5WDxDHZuT5SFVMOJdKl14NrVqfa7R20bwrauWtZtdMhSoYw==}
     dependencies:
       accepts: 1.3.8
       busboy: 1.6.0
