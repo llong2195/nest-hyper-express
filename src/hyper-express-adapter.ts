@@ -1,5 +1,10 @@
-/* eslint-disable @typescript-eslint/no-empty-function */
-/* eslint-disable @typescript-eslint/ban-types */
+/* eslint-disable @typescript-eslint/no-unused-expressions */
+/* eslint-disable @typescript-eslint/no-unsafe-call */
+/* eslint-disable @typescript-eslint/no-unsafe-member-access */
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+/* eslint-disable @typescript-eslint/no-unsafe-return */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-unsafe-function-type */
 import {
   InternalServerErrorException,
   Logger,
@@ -199,7 +204,7 @@ export class HyperExpressAdapter extends AbstractHttpAdapter<
   }
 
   public getHeader(response: Response, name: string) {
-    return response.getHeader(name)
+    return response.getHeader(name);
   }
 
   public appendHeader(response: Response, name: string, value: string) {
