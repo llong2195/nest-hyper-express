@@ -43,8 +43,8 @@ importers:
         specifier: ^11.0.2
         version: 11.0.2(chokidar@4.0.3)(typescript@5.8.2)
       '@nestjs/testing':
-        specifier: ^11.0.11
-        version: 11.0.11(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.11)(@nestjs/platform-express@11.0.11)
+        specifier: ^11.0.20
+        version: 11.0.20(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.11)(@nestjs/platform-express@11.0.11)
       '@swc/cli':
         specifier: ^0.6.0
         version: 0.6.0(@swc/core@1.11.11)(chokidar@4.0.3)
@@ -758,8 +758,8 @@ packages:
     peerDependencies:
       typescript: '>=4.8.2'
 
-  '@nestjs/testing@11.0.11':
-    resolution: {integrity: sha512-SoMIrhRpElV53btmGnEwpIQmXn2Xcztb9ae3lv+eVVnPHQuyB2zlgDIQVNjicbj7+3jdycX52KctOoj2eXEo1Q==}
+  '@nestjs/testing@11.0.20':
+    resolution: {integrity: sha512-3o+HWsVfA46tt81ctKuNj5ufL9srfmp3dQBCAIx9fzvjooEKwWl5L69AcvDh6JhdB79jhhM1lkSSU+1fBGbxgw==}
     peerDependencies:
       '@nestjs/common': ^11.0.0
       '@nestjs/core': ^11.0.0
@@ -4183,7 +4183,7 @@ snapshots:
     transitivePeerDependencies:
       - chokidar
 
-  '@nestjs/testing@11.0.11(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.11)(@nestjs/platform-express@11.0.11)':
+  '@nestjs/testing@11.0.20(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.11)(@nestjs/platform-express@11.0.11)':
     dependencies:
       '@nestjs/common': 11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/core': 11.0.11(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/platform-express@11.0.11)(reflect-metadata@0.2.2)(rxjs@7.8.2)
